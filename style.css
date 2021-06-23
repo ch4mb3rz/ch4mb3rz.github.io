@@ -1,3 +1,25 @@
 body{
     background-image: url(https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-repeat:no-repeat;
+    image-rendering: crisp-edges;
 }
+
+.container-fluid{ 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 180px;
+    
+}
+
+h1{
+    font-family: 'Lobster Two', cursive;
+    color:rgb(102, 100, 100);
+    position:relative;
+    top:350px;
+    display:flex;
+    justify-content:center
+}
+    
+
